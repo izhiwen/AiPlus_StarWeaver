@@ -12,12 +12,12 @@
 我用 AI coding agent 全职写代码已经有大半年 —— 平时主要 Claude Code，偶尔 Codex 拿第二意见，长任务上 OpenCode。大约四个月之后，我发现自己在同一周里把同一个架构决策对同一个 agent 解释了第四遍 —— 顺带把同一把 API key 也对同一个 agent 重新粘贴了第四遍。AiPlus 就是我为治这几件每天烧时间的事写的七个小 Rust 模块（Agent Team 一个模块同时治两件）。坦白讲这件事的元层：**我用 AI agent 构建了管理 AI agent 的工具链** —— 这句话听起来有多套娃就有多套娃，但这是这个 repo 存在的真实理由。今天能跑的就在这儿；还没做的事在 [`docs/roadmap/`](docs/roadmap/)。
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/izhiwen/AiPlus/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/izhiwen/AiPlus_StarWeaver/main/install.sh | bash
 ```
 
 [开始使用](#get-started) ·
-[Releases](https://github.com/izhiwen/AiPlus/releases/latest) ·
-[在 GitHub 上 Star](https://github.com/izhiwen/AiPlus)
+[Releases](https://github.com/izhiwen/AiPlus_StarWeaver/releases/latest) ·
+[在 GitHub 上 Star](https://github.com/izhiwen/AiPlus_StarWeaver)
 
 ![首次运行的终端录屏：进入项目目录直接运行 aiplus，首次裸跑会自动为每个检测到的运行时安装适配器，然后打开 lobby——角色名册按 core team / review bench / on-demand experts 分组，每个角色都有编号、可直接选。](docs/screenshots/tour.gif)
 
@@ -173,7 +173,7 @@ AiPlus 把本地 AI coding 工作牢牢握在 Owner 手上。除非 Owner 显式
 ### 安装 AiPlus
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/izhiwen/AiPlus/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/izhiwen/AiPlus_StarWeaver/main/install.sh | bash
 ```
 
 这会在你机器上装好 `aiplus` 命令。
@@ -195,9 +195,9 @@ aiplus
 
 ### 状态
 
-最新发布：**`v0.7.23`**，可从 [Releases](https://github.com/izhiwen/AiPlus/releases/latest) 获取（预编译二进制覆盖 Apple Silicon macOS 和 Intel Windows，并发布 checksums）。`main` 分支持续活跃开发；`main` 可能包含比最新 tag 更新的内容 —— 已发布能力以最新 tag 和 release notes 为准。README 里某些细节，在明确标注时，可能描述比最新 tag 更新的工作。
+最新发布：**`v0.7.23`**，可从 [Releases](https://github.com/izhiwen/AiPlus_StarWeaver/releases/latest) 获取（预编译二进制覆盖 Apple Silicon macOS 和 Intel Windows，并发布 checksums）。`main` 分支持续活跃开发；`main` 可能包含比最新 tag 更新的内容 —— 已发布能力以最新 tag 和 release notes 为准。README 里某些细节，在明确标注时，可能描述比最新 tag 更新的工作。
 
-如果它帮你省了时间，欢迎 [在 GitHub 上给 AiPlus 点个 Star](https://github.com/izhiwen/AiPlus)。
+如果它帮你省了时间，欢迎 [在 GitHub 上给 AiPlus 点个 Star](https://github.com/izhiwen/AiPlus_StarWeaver)。
 
 ### License
 
