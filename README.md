@@ -5,7 +5,7 @@
 
 [中文 README](README.zh-CN.md)
 
-![AiPlus turns a single AI coding agent into a coordinated, role-based team. The hero shows the project lobby with the full 17-role roster, a copyable one-line install command, the seven-stage pipeline ribbon (remember decisions, dispatch, team, handoff, status, self-correct, audit), and local-first credibility chips: latest tag v0.7.10, 100% local, no telemetry, Apache-2.0.](docs/screenshots/readme-hero-en.png)
+![AiPlus turns a single AI coding agent into a coordinated, role-based team. The hero shows the project lobby with the full 17-role roster, a copyable one-line install command, the seven-stage pipeline ribbon (remember decisions, dispatch, team, handoff, status, self-correct, audit), and local-first credibility chips: latest tag v0.7.10, 100% local, no telemetry, Apache-2.0.](docs/screenshots/readme-hero-en.webp)
 
 **Turn your AI coding helper into a coordinated team.**
 
@@ -38,7 +38,7 @@ Every AiPlus session moves work through seven stages. Each stage is powered by a
 module, and the whole chain stays local, inspectable, and tamper-evident. The bilingual
 stage labels below are the same in both READMEs.
 
-![AiPlus seven-stage pipeline flow diagram: memory (Agent Memory) to dispatch (Agent Team) to team (Agent Team) to handoff (Compact Reminder) to status (Agent Team) to self-correct (Self-Correct Framework) to audit (Agent Team, the tamper-evident hash-chain dispatch log). The stages are connected by arrows and each is labeled with the module that powers it.](docs/screenshots/pipeline-en.png)
+![AiPlus seven-stage pipeline flow diagram: memory (Agent Memory) to dispatch (Agent Team) to team (Agent Team) to handoff (Compact Reminder) to status (Agent Team) to self-correct (Self-Correct Framework) to audit (Agent Team, the tamper-evident hash-chain dispatch log). The stages are connected by arrows and each is labeled with the module that powers it.](docs/screenshots/pipeline-en.webp)
 
 | Stage | What happens | Powered by |
 |-------|--------------|------------|
@@ -72,7 +72,7 @@ module also ships as a standalone GitHub repo so you can read or adopt it on its
   handoff, and resumes from a checksum-verified capsule — so tokens go to new work, not to
   rebuilding context.
 
-  ![Diagram animation of the handoff/compact flow: a long session's context bar grows toward a token threshold, AiPlus saves a checksum-verified handoff capsule at the right moment, and the next session resumes lean so tokens go to new work instead of rebuilding context.](docs/screenshots/handoff-en.gif)
+  ![Diagram animation of the handoff/compact flow: a long session's context bar grows toward a token threshold, AiPlus saves a checksum-verified handoff capsule at the right moment, and the next session resumes lean so tokens go to new work instead of rebuilding context.](docs/screenshots/handoff-en.webp)
 - **[Agent Key](https://github.com/izhiwen/AiPlus-Agent-Key)** — stop re-pasting keys every
   session. Free, zero-config by default: each key lives in your OS keyring (macOS Keychain /
   Linux Secret Service / Windows Credential Manager) and never touches disk. Set an alias
@@ -146,7 +146,7 @@ review-bench roles, and 3 on-demand functional experts**, with 5 more planned �
 as subagents. Complete persona docs live in
 [`.aiplus/agents/personas/`](.aiplus/agents/personas/).
 
-![A routing diagram: plain-English requests on the left — for example "fix the bug", "review this PR", "security / auth check", "how long will this take?" — flow into the CEO, which scores each task LIGHT, MEDIUM, or HEAVY and assigns matching roles. LIGHT goes to a single engineer and skips architect, reviewer, and QA; MEDIUM brings in two or three roles matched to the risk; HEAVY runs the full review bench including the advisor. Saying "help me implement X" first triggers the agent_route_score_only tool to preview staffing before any work starts.](docs/screenshots/routing-en.png)
+![A routing diagram: plain-English requests on the left — for example "fix the bug", "review this PR", "security / auth check", "how long will this take?" — flow into the CEO, which scores each task LIGHT, MEDIUM, or HEAVY and assigns matching roles. LIGHT goes to a single engineer and skips architect, reviewer, and QA; MEDIUM brings in two or three roles matched to the risk; HEAVY runs the full review bench including the advisor. Saying "help me implement X" first triggers the agent_route_score_only tool to preview staffing before any work starts.](docs/screenshots/routing-en.webp)
 
 **12 core roles**
 
@@ -178,9 +178,9 @@ The CEO scores incoming tasks LIGHT / MEDIUM / HEAVY: LIGHT tasks skip Architect
 MEDIUM tasks consult 2–3 roles matching the risk axes, and HEAVY tasks run the full table
 including Advisor.
 
-![Lobby role-selection filmstrip: run aiplus and the role roster appears grouped into core team, review bench, and on-demand experts; type a number to pick a role (here ceo) and the session binds to it — memory loads, no permissions granted.](docs/screenshots/lobby-filmstrip-en.png)
+![Lobby role-selection filmstrip: run aiplus and the role roster appears grouped into core team, review bench, and on-demand experts; type a number to pick a role (here ceo) and the session binds to it — memory loads, no permissions granted.](docs/screenshots/lobby-filmstrip-en.webp)
 
-![Diagram animation of dispatch: a task arrives, the CEO role scores it and previews staffing with agent_route_score_only, fans the work out to the matched roles (engineer-a, reviewer, qa) working in parallel lanes, then fans in to one Owner-gated status report with a plain-language summary.](docs/screenshots/dispatch-en.gif)
+![Diagram animation of dispatch: a task arrives, the CEO role scores it and previews staffing with agent_route_score_only, fans the work out to the matched roles (engineer-a, reviewer, qa) working in parallel lanes, then fans in to one Owner-gated status report with a plain-language summary.](docs/screenshots/dispatch-en.webp)
 
 ---
 
@@ -219,7 +219,7 @@ These audiences share the seven substrate modules: `aiplus-agent-memory` /
 `aiplus-compact-reminder` / `aiplus-auto-team-consultant` / `aiplus-agent-team` /
 `aiplus-agent-key` / `aiplus-agent-velocity` / `aiplus-token-cost`.
 
-![A layered diagram. At the base, a shared project-local substrate of modules — memory, team, key, velocity, and more — installed by aiplus install. Resting on it, three audience lanes: a software-engineering team installed by default, plus applied-economics (AdamSmith: AiEconLab) and AI-agent-research (AgentScienceLab) lab packs added opt-in with aiplus add. Floating above the whole stack, a user-level Work-with-Me profile layer you fill once and inherit across every project; it is opt-in, lives under ~/.config/aiplus, and is never packaged into a public repo.](docs/screenshots/substrate-en.png)
+![A layered diagram. At the base, a shared project-local substrate of modules — memory, team, key, velocity, and more — installed by aiplus install. Resting on it, three audience lanes: a software-engineering team installed by default, plus applied-economics (AdamSmith: AiEconLab) and AI-agent-research (AgentScienceLab) lab packs added opt-in with aiplus add. Floating above the whole stack, a user-level Work-with-Me profile layer you fill once and inherit across every project; it is opt-in, lives under ~/.config/aiplus, and is never packaged into a public repo.](docs/screenshots/substrate-en.webp)
 
 ### Safety boundaries
 
