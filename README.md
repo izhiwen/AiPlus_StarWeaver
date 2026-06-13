@@ -3,7 +3,7 @@
 
 [中文 README](README.zh-CN.md)
 
-![AiPlus turns a single AI coding agent into a coordinated, role-based team. The hero shows the project lobby with the full 17-role roster, a copyable one-line install command, the seven-stage pipeline ribbon (remember decisions, dispatch, team, handoff, status, self-correct, audit), and local-first credibility chips: latest tag v0.7.23, 100% local, no telemetry, no telemetry.](docs/screenshots/readme-hero-en.webp)
+![AiPlus turns a single AI coding agent into a coordinated, role-based team. The hero shows the project lobby with the full 17-role roster, a copyable one-line install command, the seven-stage pipeline ribbon (remember decisions, dispatch, team, handoff, status, self-correct, audit), and local-first credibility chips: latest tag v0.1.0, 100% local, no telemetry, no telemetry.](docs/screenshots/readme-hero-en.webp)
 
 **Turn your AI coding helper into a coordinated team.**
 
@@ -19,12 +19,12 @@ exists. What ships today is documented below; what is still planned lives in
 [`docs/roadmap/`](docs/roadmap/).
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/izhiwen/AiPlus_StarWeaver/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/izhiwen/AiPlus/main/install.sh | bash
 ```
 
 [Get started](#get-started) ·
-[Releases](https://github.com/izhiwen/AiPlus_StarWeaver/releases/latest) ·
-[Star on GitHub](https://github.com/izhiwen/AiPlus_StarWeaver)
+[Releases](https://github.com/izhiwen/AiPlus/releases/latest) ·
+[Star on GitHub](https://github.com/izhiwen/AiPlus)
 
 ![Terminal recording of the first run: cd into a project and run aiplus; the first bare run auto-installs AiPlus for every detected runtime, then opens the lobby with the role roster grouped into core team, review bench, and on-demand experts — each role numbered 1 to N and ready to pick.](docs/screenshots/tour.gif)
 
@@ -252,7 +252,7 @@ settings.
 ### Install AiPlus
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/izhiwen/AiPlus_StarWeaver/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/izhiwen/AiPlus/main/install.sh | bash
 ```
 
 This installs the `aiplus` command on your machine.
@@ -280,14 +280,14 @@ Once you're in, you don't need to memorize commands. Just ask the agent in plain
 
 ### Status
 
-Latest release: **`v0.7.23`**, available from
-[Releases](https://github.com/izhiwen/AiPlus_StarWeaver/releases/latest) (pre-built binaries cover Apple
+Latest release: **`v0.1.0`**, available from
+[Releases](https://github.com/izhiwen/AiPlus/releases/latest) (pre-built binaries cover Apple
 Silicon macOS and Intel Windows, with published checksums). Active development continues on
 `main`; `main` may include updates newer than the latest tag — shipped capabilities are defined
 by the most recent tag and its release notes. Some README details may describe work newer than
 the latest tagged release when clearly marked.
 
-[Star AiPlus on GitHub](https://github.com/izhiwen/AiPlus_StarWeaver) if it saves you time.
+[Star AiPlus on GitHub](https://github.com/izhiwen/AiPlus) if it saves you time.
 
 ### License
 
